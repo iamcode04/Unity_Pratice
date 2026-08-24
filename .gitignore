@@ -8,10 +8,10 @@
 [Rr]ecordings/
 
 # ---- 빌드 산출물 ----
-# 배포용 zip 을 담은 Dodge/Build/ 는 예외로 커밋한다
+# 배포용 zip 을 담은 <프로젝트>/Build/ 는 예외로 커밋한다
 [Bb]uild/
 [Bb]uilds/
-!Dodge/Build/
+!*/Build/
 
 # ---- IDE / 자동 생성 프로젝트 파일 ----
 .vs/
