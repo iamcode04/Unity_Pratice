@@ -8,10 +8,9 @@
 [Rr]ecordings/
 
 # ---- 빌드 산출물 ----
-# 배포용 zip 을 담은 <프로젝트>/Build/ 는 예외로 커밋한다
+# 빌드 산출물은 저장소에 넣지 않는다. 배포용 zip 은 GitHub Releases 로 올린다.
 [Bb]uild/
 [Bb]uilds/
-!*/Build/
 
 # ---- IDE / 자동 생성 프로젝트 파일 ----
 .vs/

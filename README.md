@@ -6,11 +6,11 @@
 
 | 프로젝트 | 설명 | 유니티 버전 | 빌드 다운로드 |
 |---|---|---|---|
-| [Dodge](Dodge/) | 사방에서 날아오는 탄알을 피해 오래 버티는 3D 게임 | 6000.5.7f1 | [zip · 38MB](Dodge/Build/Dodge_Windows_x64.zip) |
-| [Uni-Run](Uni-Run/) | 발판을 밟고 장애물을 피하는 2D 무한 러너 | 6000.5.7f1 | [zip · 73MB](Uni-Run/Build/UniRun_Windows_x64.zip) |
-| [Zombie](Zombie/) | 몰려오는 좀비를 총으로 막아내는 3D 웨이브 서바이벌 | 6000.5.7f1 | [zip · 75MB](Zombie/Build/Zombie_Windows_x64.zip) |
+| [Dodge](Dodge/) | 사방에서 날아오는 탄알을 피해 오래 버티는 3D 게임 | 6000.5.7f1 | [다운로드 · 38MB](https://github.com/iamcode04/Unity_Pratice/releases/download/dodge-v1.0/Dodge_Windows_x64.zip) |
+| [Uni-Run](Uni-Run/) | 발판을 밟고 장애물을 피하는 2D 무한 러너 | 6000.5.7f1 | [다운로드 · 73MB](https://github.com/iamcode04/Unity_Pratice/releases/download/unirun-v1.0/UniRun_Windows_x64.zip) |
+| [Zombie](Zombie/) | 몰려오는 좀비를 총으로 막아내는 3D 웨이브 서바이벌 | 6000.5.7f1 | [다운로드 · 75MB](https://github.com/iamcode04/Unity_Pratice/releases/download/zombie-v1.0/Zombie_Windows_x64.zip) |
 
-빌드 zip은 파일 페이지에서 **Download** 버튼으로 받은 뒤, 압축을 풀고 안에 있는 `.exe` 를 실행하면 됩니다. (Windows x64)
+빌드 파일은 [Releases](https://github.com/iamcode04/Unity_Pratice/releases) 에 있습니다. zip을 받아 압축을 풀고 안에 있는 `.exe` 를 실행하면 됩니다. (Windows x64)
 
 에디터에서 열 때는 Unity Hub → **Add** → 프로젝트 폴더 선택 → **6000.5.7f1** 로 열면 됩니다.
 `Library/` 폴더는 커밋하지 않으므로 처음 열 때 에셋 재임포트에 시간이 조금 걸립니다.
@@ -95,5 +95,5 @@
 | [`GunData.cs`](Zombie/Assets/Scripts/GunData.cs) / [`ZombieData.cs`](Zombie/Assets/Scripts/ZombieData.cs) | 총·좀비 수치를 담는 `ScriptableObject` |
 | [`GameManager.cs`](Zombie/Assets/Scripts/GameManager.cs) / [`UIManager.cs`](Zombie/Assets/Scripts/UIManager.cs) | 점수·게임오버 상태 관리와 UI 갱신, 재시작 |
 
-빌드 zip에는 `Zombie_BackUpThisFolder_ButDontShipItWithYourGame`(IL2CPP 디버그 심볼 675MB)과
+배포용 zip에는 `Zombie_BackUpThisFolder_ButDontShipItWithYourGame`(IL2CPP 디버그 심볼 675MB)과
 `Zombie_BurstDebugInformation_DoNotShip`은 포함하지 않았습니다. 실행에는 필요 없는 파일입니다.
